@@ -1,0 +1,3 @@
+icon: https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567593192/noticon/za5oft8gpi5yabrlvgfp.gif
+deploy:
+  - okteto build -t okteto.dev/elk:${OKTETO_GIT_COMMIT} ELK
